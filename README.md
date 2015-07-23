@@ -29,9 +29,8 @@ Copy MAX.Writers.REST.dll from the MaxWriters solution to the Vipr solution.
 Here's what you need to do to run the documentation writer:
 
 1. Open a command prompt in <-RepoLocation->\Vipr\src\Core\Vipr\bin\Debug
-2. Run the following command line. I've broken the command line up with "\\" to make it easier
-   to read, you should type it on a single line.
+2. Run the following command line. 
    
-    vipr <-Location of the metadata file-> \\
-         --writer=MAX.Writer.REST \\
+    vipr <-Location of the metadata file->
+         --writer=MAX.Writer.REST
 		 -- outputPath=<-Location to write doc file->
